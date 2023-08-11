@@ -1,0 +1,164 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    color: white;
+    font-family: fantasy;
+}
+h1{
+    text-align: center;
+    font-family: fantasy;
+    font-size: 4rem;
+}
+.inp{
+    font-size: 2.7rem;
+}
+.number{
+    height: 120px;
+    width: 120px;
+    background-color: white;
+    position: absolute;
+    top: 180px;
+    left: 595px;
+    color: black;
+    text-align: center;
+    padding-top: 3px;
+    font-size: 5rem;
+    border: 10px ridge gray;
+}
+.container{
+    margin-top: 170px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+input[type="number"]{
+    height:70px;
+    width: 200px;
+    font-size: 2rem;
+    text-align: center;
+    font-weight: 900;
+    position: absolute;
+    left:50px;
+    border: 7px ridge gray;
+}
+#check{
+    height: 50px;
+    width: 100px;
+    background-color: white;
+    position: absolute;
+    top: 160px;
+    left: 95px;
+    font-weight: 900;
+    border: 5px solid greenyellow;
+    cursor: pointer;
+}
+#playagain{
+    height: 80px;
+    width: 200px;
+    font-size: 1.3rem;
+    font-weight: 900;
+    position: absolute;
+    left: 550px;
+    top: 520px;
+    border: 5px solid greenyellow;
+    cursor: pointer;
+}
+.message{
+    font-size: 2.7rem;
+}
+.chance{
+    font-size: 1.4rem;
+}
+.score{
+    font-size: 1.4rem;
+}
+.left{
+    position: absolute;
+    left: 110px;
+    top: 300px;
+}
+.right{
+    position: absolute;
+    left: 900px;
+    top: 260px;
+}
+
+
+@media screen and (min-width: 320px) and (max-width: 600px) {
+
+body{
+    width: 300%;
+}
+h1{
+    font-size: 7rem;
+    margin-top: 8rem;
+}
+.number {
+    height: 20rem;
+    width: 20rem;
+    position: absolute;
+    top: 400px;
+    left: 460px;
+    padding-top: 25px;
+    font-size: 11rem;
+    border: 20px ridge gray;
+}
+.left {
+    width: 300%;
+    position: absolute;
+    left: 0px;
+    top: 870px;
+    text-align: center;
+}
+.inp{
+    font-size: 5rem;
+}
+input[type="number"] {
+    height: 150px;
+    width: 350px;
+    font-size: 5rem;
+    position: absolute;
+    top: 150px;
+    left: 440px;
+    border: 15px ridge gray;
+}
+#check {
+    height: 100px;
+    width: 250px;
+    background-color: white;
+    position: absolute;
+    top: 370px;
+    left: 490px;
+    border: 7px solid greenyellow;
+    font-size: 3rem;
+}
+.right {
+    width: 300%;
+    position: absolute;
+    left: 0px;
+    top: 1450px;
+    text-align: center;
+}
+.message {
+    font-size: 5rem;
+}
+
+.chance {
+    font-size: 3.5rem;
+}
+
+.score {
+    font-size: 3.5rem;
+}
+#playagain {
+    height: 150px;
+    width: 370px;
+    font-size: 3rem;
+    position: absolute;
+    left: 430px;
+    top: 2150px;
+    border: 7px solid greenyellow;
+}
+}
